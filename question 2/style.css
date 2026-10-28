@@ -16,19 +16,18 @@ html, body {
 }
 
 .parent {
-    width: 100%;
+    width: 10%;
     height: 100%;
-    border: 2px solid black;
+    border-right: 2px solid black;
     display: flex;
 }
 
 .left {
     flex: 1;
     height: 100%;
-    border-right: 3px solid black;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .right {
